@@ -1,0 +1,13 @@
+### create and push a patient to the db
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "BiswaRanjan",
+  "email": "test@gmail.com",
+  "address": "baghuabol,talcher",
+  "dateOfBirth": "2002-10-20",
+  "registeredDate": "2026-02-02"
+}
+
+###
