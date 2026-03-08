@@ -1,0 +1,11 @@
+### Updates and push an existing patient entity to the db
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "John Doe Up",
+  "email": "john.doe@example.com",
+  "address": "baghuabol,talcher",
+  "dateOfBirth": "2002-10-20"
+}
+###
